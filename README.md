@@ -1,7 +1,7 @@
 scripts
 =======
 
-Scripts for various tasks 
+Common tasks scripts 
 
 Ubuntu preparation
 ======================
