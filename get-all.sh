@@ -1,4 +1,4 @@
-B=https://github.com/masgari/scripts/
+B=https://raw.github.com/masgari/scripts/master/
 
 wget $B/aliases.sh
 wget $B/sudo-no-pw.sh
