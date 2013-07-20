@@ -9,3 +9,5 @@ sudo sed -i "$ a\alias u='cd ..'" $O
 sudo sed -i "$ a\alias l='ls -ahl --color'" $O
 sudo sed -i "$ a\alias du1='du -h --max-depth=1'" $O
 sudo sed -i "$ a\alias sudo='sudo '" $O 
+
+source $O
