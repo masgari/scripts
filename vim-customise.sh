@@ -1,0 +1,1 @@
+echo "colorscheme koehler" ~/.vimrc
