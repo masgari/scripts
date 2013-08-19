@@ -7,5 +7,6 @@ wget $B/sudo-no-pw.sh
 wget $B/static-ip.sh
 wget $B/samba.sh
 wget $B/open-files.sh
+wget $B/vim-customise.sh
 
 chmod +x *.sh
