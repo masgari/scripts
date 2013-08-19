@@ -1,1 +1,1 @@
-echo "colorscheme koehler" ~/.vimrc
+echo "colorscheme koehler" >> ~/.vimrc
