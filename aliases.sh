@@ -9,7 +9,7 @@ sudo sed -i "$ a\alias b='cd -'" $O
 sudo sed -i "$ a\alias l='ls -ahl --color'" $O
 sudo sed -i "$ a\alias du1='du -h --max-depth=1'" $O
 sudo sed -i "$ a\alias sudo='sudo '" $O 
-sudo sed -i "$ a\alias rmx='rm `ls | grep -v $1`'"
+#sudo sed -i "$ a\alias rmx='rm `ls | grep -v $1`'"
 #sudo sed -i "$ a\alias trim='sed -E 's/\s*$//g' | sed -E 's/^\s*//g''" $O
 
 source $O
