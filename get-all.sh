@@ -8,5 +8,5 @@ wget $B/static-ip.sh
 wget $B/samba.sh
 wget $B/open-files.sh
 wget $B/vim-customise.sh
-
+wget $B/bashrc.sh
 chmod +x *.sh
