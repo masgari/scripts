@@ -12,4 +12,5 @@ sudo sed -i "$ a\alias sudo='sudo '" $O
 #sudo sed -i "$ a\alias rmx='rm `ls | grep -v $1`'"
 #sudo sed -i "$ a\alias trim='sed -E 's/\s*$//g' | sed -E 's/^\s*//g''" $O
 sudo sed -i "$ a\alias http-server='python -m SimpleHTTPServer'" $O
+sudo sed -i "$ a\alias portwho='netstat -tulpn | grep $1'" $O
 source $O
