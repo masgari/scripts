@@ -9,4 +9,5 @@ wget $B/samba.sh
 wget $B/open-files.sh
 wget $B/vim-customise.sh
 wget $B/bashrc.sh
+wget $B/ufw.sh
 chmod +x *.sh
