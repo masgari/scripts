@@ -1,10 +1,8 @@
-scripts
-======================
-Common tasks scripts 
 
-Download
+Ubuntu Utility Scripts
 ======================
-curl https://raw.github.com/masgari/scripts/master/get-all.sh | bash
+
+mkdir tmp; cd tmp; curl https://raw.github.com/masgari/scripts/master/get-all.sh | bash
 
 
 Ubuntu preparation
