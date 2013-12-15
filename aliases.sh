@@ -1,5 +1,5 @@
 O=/etc/bash.bashrc
-C=sudo sed -i
+C='sudo sed -i'
 $C "$ a\export HISTFILESIZE=10000" $O
 $C "$ a\HISTCONTROL=ignoredups" $O
 $C "$ a\alias fgrep='fgrep --colour'" $O
