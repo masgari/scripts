@@ -1,4 +1,3 @@
-
 #setup static ip-address
 IP=192.168.1.14
 N=255.255.255.0
@@ -9,6 +8,6 @@ sudo sed -i "s/dhcp/static/g" $O
 sudo sed -i "$ a\address $IP" $O
 sudo sed -i "$ a\gateway $G" $O
 sudo sed -i "$ a\netmask $N" $O
-sudo sed -i "$ a\dns-nameservers 8.8.8.8 $G" $O
+sudo sed -i "$ a\dns-nameservers $G 8.8.8.8" $O
 
 sudo service networking restart
