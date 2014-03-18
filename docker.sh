@@ -20,4 +20,4 @@ curl $BC_URL | sudo tee -a /etc/bash_completion.d/docker
 
 
 # Installing docker highlighter
-mkdir -p ~/.vim && cd ~/.vim && git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
+mkdir -p ~/.vim && cd ~/.vim && git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile && cd -
