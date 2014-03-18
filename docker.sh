@@ -17,3 +17,7 @@ LINES="limit memlock unlimited unlimited\n"
 #bash completion
 BC_URL="https://raw.githubusercontent.com/dotcloud/docker/master/contrib/completion/bash/docker"
 curl $BC_URL | sudo tee -a /etc/bash_completion.d/docker
+
+
+# Installing docker highlighter
+mkdir -p ~/.vim && cd ~/.vim && git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
