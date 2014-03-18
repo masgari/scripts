@@ -13,6 +13,8 @@ LINES="limit memlock unlimited unlimited\n"
 
 #limit nofile $N $N
 
+#run docker without sudo, adding current user to docker group
+sudo gpasswd -a ${USER} docker
 
 #bash completion
 BC_URL="https://raw.githubusercontent.com/dotcloud/docker/master/contrib/completion/bash/docker"
