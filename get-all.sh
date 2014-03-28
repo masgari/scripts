@@ -12,4 +12,5 @@ $C $B/open-files.sh
 $C $B/vim-customise.sh
 $C $B/bashrc.sh
 $C $B/ufw.sh
+$C $B/git.sh
 chmod +x *.sh
