@@ -2,7 +2,7 @@
 # common tasks for git
 
 
-F="~/.gitignore_global"
+F=~/.gitignore_global
 
 
 if [ ! -f $F ]; then
@@ -12,8 +12,8 @@ fi
 
 # see https://github.com/github/gitignore for more options
 # gradle
-printf ".gradle\nbuild/" >> $F
+printf ".gradle\nbuild/\n\n" >> $F
 # java
-printf "*.class\n*.jar\n*.war\n*.ear\nhs_err_pid*" >> $F
+printf "*.class\n*.jar\n*.war\n*.ear\nhs_err_pid*\n\n" >> $F
 # python
-printf "__pycache__/\n*.py[cod]" >> $F
+printf "__pycache__/\n*.py[cod]\n\n" >> $F
