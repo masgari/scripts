@@ -2,7 +2,7 @@
 # common tasks for git
 
 
-F= ~/.gitignore_global
+F="~/.gitignore_global"
 
 
 if [ ! -f $F ]; then
