@@ -1,6 +1,6 @@
 B=https://raw.github.com/masgari/scripts/master
 
-rm `ls | grep -v 'get-all.sh'`
+rm -f `ls | grep -v 'get-all.sh'`
 
 C="wget --quiet"
 
