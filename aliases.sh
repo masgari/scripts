@@ -15,4 +15,5 @@ $C "$ a\alias sudo='sudo '" $O
 $C "$ a\alias http-server='python -m SimpleHTTPServer'" $O
 $C "$ a\alias portwho='netstat -tulpn | grep $1'" $O
 $C "$ a\alias pretty-print='python -mjson.tool'" $O
+$C "$ a\alias pub-ip='curl -q http://checkip.amazonaws.com'" $O
 source $O
