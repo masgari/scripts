@@ -1,4 +1,4 @@
-B=https://raw.github.com/masgari/scripts/master
+B=https://raw.githubusercontent.com/masgari/scripts/master/get-all.sh
 
 rm -f `ls | grep -v 'get-all.sh'`
 
